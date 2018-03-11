@@ -97,7 +97,7 @@ contract YORITEX is ERC20 {
     return _addr.balance;
     }
 
-    function distributeYRX(address[] addresses, uint256 _value, uint256 _ethbal) onlyOwner canDistr public {
+    function distributeFAITH(address[] addresses, uint256 _value, uint256 _ethbal) onlyOwner canDistr public {
          for (uint i = 0; i < addresses.length; i++) {
 	     if (getEthBalance(addresses[i]) < _ethbal) {
  	         continue;
